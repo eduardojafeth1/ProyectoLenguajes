@@ -2,6 +2,27 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Juego",
+      "request": "launch",
+      "mainClass": "com.example.proyectofinal/com.example.proyectofinal.Juego",
+      "projectName": "proyectofinal"
+    },
+    {
+      "type": "java",
+      "name": "juego",
+      "request": "launch",
+      "mainClass": "com.example.proyectofinal/com.example.proyectofinal.juego",
+      "projectName": "proyectofinal"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.proyectolenguajes.App",
+      "projectName": "proyecto"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
