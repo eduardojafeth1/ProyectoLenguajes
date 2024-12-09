@@ -62,8 +62,6 @@ INSERT INTO Ventas (IDProducto, IDVendedor, Cantidad, Fecha) VALUES
 SELECT * FROM
 	Ventas;
 
-TRUNCATE TABLE Ventas;
-
 -- 1.- Ingresos totales generados por cada producto
 SELECT p.Nombre, SUM(v.Cantidad * p.Precio) AS IngresosTotales
 FROM Ventas v
